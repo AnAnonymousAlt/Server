@@ -1,0 +1,4 @@
+My personal website on nodejs. (this website)
+http://lixiaoyan.info
+https://github.com/AnAnonymousAlt/MyServer
+To get familiar with web development with css, html and JS, and to learn AWS structures.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" name="viewport" content= "width=device-width. initial-scale=1.0*">
+  <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" >
+  <link rel="stylesheet" href="/style/lixiaoyan.css">
+  <script src="/script/pdf.js"></script>
+  
+	<title>Xiaoyan Li</title>
+
+</head>
+<body >
+  <div id="bodydiv">
+    <div id="previewdiv" >
+      <span onclick="previewfunc()">cancel</span><br>
+      <canvas onclick="previewfunc()" id="previewcanvas"></canvas>
+    </div>
+    <div id="introcontainer">
+      <div class="intro" id="textdiv">
+          <h1>
+              lixiaoyan.info:     Hello!
+          </h2>
+        <div class="text" id="introtextdiv"></div>
+        <div class="text" id="projecttextdiv">
+          <h3 id="projecthead">
+              Projects
+            <span id="linkspan">
+              <a href="https://github.com/AnAnonymousAlt"><img src="/resource/github.png" id="githubpic" alt="github link"></a>
+              <a href="mailto: li2185@purdue.edu"><img src="/resource/email.png" id="emailpic" alt="email link"></a>
+            </span>
+            
+          </h3><br>
+        </div> 
+      </div>
+      <div class="intro" id="picdiv">
+        <canvas id="resume-canvas" onclick="previewfunc()"></canvas><br>
+        <b>
+          <span onclick="previewfunc()" id="previewtext">preview</span> or 
+          <a href="/resource/Resume.pdf" download="xiaoyan_resume.pdf">download</a> my resume.
+        </b><br><br>
+        <img src="/resource/lixiaoyan.jpg" id="selfpic" alt="picture of li xiaoyan">
+      </div>  
+    </div>
+  </div>
+  <script src="/script/lixiaoyanloader.js"></script>
+</body>
+</html>

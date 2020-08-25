@@ -1,0 +1,107 @@
+div {
+    position: relative;
+    /*border: 3px solid green;*/
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+#bodydiv {
+    padding: 30px;
+    top: 20px;
+    width: 1030px;
+    background-color: antiquewhite;
+    margin: 0% auto;
+}
+
+h2 {
+    border-top: 30px;
+}
+
+#introcontainer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: table;
+}
+
+#textdiv {
+    display: inline-block;
+    vertical-align: top;    
+    right: 0;
+    margin: 0% auto;
+    padding: 0%;
+    width: 700px;
+    height: 800px;
+}
+
+.text {
+    border: 1px solid slategray;
+    background-color: antiquewhite;
+    text-align: left;
+    text-indent: 20px;
+    margin: 0;
+    position: relative;
+    
+}
+
+#introtextdiv {
+    padding: 20px;
+    top: 0px;
+}
+
+#projecttextdiv {
+    padding: 20px;
+    padding-top: 0px;
+    top: 30px;
+}
+
+#linkspan {
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+
+#projecthead {
+    position: relative;
+    left: -8px;
+    text-align: left;
+}
+
+#githubpic {
+    width: 34px;
+    height: 32px;
+}
+
+#emailpic {
+    position: relative;
+    left: 4px;
+    widows: 33px;
+    height: 33px;
+}
+#picdiv {
+    display: inline-block;
+    vertical-align: top;    
+    right: 0;
+    margin: 0% auto;
+    padding: 0%;
+    width: 300px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+canvas {
+    border: 1px solid black;
+}
+
+#previewtext {
+    color: blue;
+    text-decoration: underline;
+}
+  
+#selfpic {
+    width: 278px;
+    height: 578px;
+    align-content: center;
+}
