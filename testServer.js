@@ -6,7 +6,7 @@ const app = express();
 const path = require("path");
 
 // Global variable
-const port = 80; 
+const port = 3000;
 
 // Rules
 app.get('/', function (req,res) 
